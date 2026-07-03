@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="RestAssuredSuite" parallel="false">
+
+  <test name="Booking API Flow">
+
+    <classes>
+
+      <class name="tests.CreateBookingTest"/>
+      <class name="tests.AuthTest"/>
+      <class name="tests.PartialUpdateBookingTest"/>
+      <class name="tests.DeleteBookingTest"/>
+      <class name="tests.GetBookingTest"/>
+      <class name="tests.UpdateBookingTest"/>
+
+    </classes>
+
+  </test>
+
+</suite>
